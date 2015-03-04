@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AACollageView"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
   s.summary      = "Custom UIView for displaying interactive collage from images"
 
   s.description  = <<-DESC
