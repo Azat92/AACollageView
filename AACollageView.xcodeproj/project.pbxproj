@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A575FA131A4C21FF2ED9BDE7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED355319B9F95388FA685B4 /* libPods.a */; };
+		AAC6723F1AA73CED006F40E9 /* StoryboardCollageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6723E1AA73CED006F40E9 /* StoryboardCollageViewController.m */; };
+		AAC6724A1AA74048006F40E9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672411AA74048006F40E9 /* 3.jpg */; };
+		AAC6724B1AA74048006F40E9 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC672421AA74048006F40E9 /* 9.png */; };
+		AAC6724C1AA74048006F40E9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672431AA74048006F40E9 /* 2.jpg */; };
+		AAC6724D1AA74048006F40E9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672441AA74048006F40E9 /* 7.jpg */; };
+		AAC6724E1AA74048006F40E9 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC672451AA74048006F40E9 /* 6.png */; };
+		AAC6724F1AA74048006F40E9 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC672461AA74048006F40E9 /* 4.png */; };
+		AAC672501AA74048006F40E9 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672471AA74048006F40E9 /* 8.jpg */; };
+		AAC672511AA74048006F40E9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672481AA74048006F40E9 /* 5.jpg */; };
+		AAC672521AA74048006F40E9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC672491AA74048006F40E9 /* 1.jpg */; };
+		AAC672581AA744BC006F40E9 /* CodeCollageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC672571AA744BC006F40E9 /* CodeCollageViewController.m */; };
+		AAC6725B1AA7460F006F40E9 /* DelegateCollageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6725A1AA7460F006F40E9 /* DelegateCollageViewController.m */; };
+		AAC6725E1AA74C70006F40E9 /* ImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6725D1AA74C70006F40E9 /* ImageShowViewController.m */; };
+		AAC929221AA73A6B009034F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC929211AA73A6B009034F5 /* main.m */; };
+		AAC929251AA73A6B009034F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC929241AA73A6B009034F5 /* AppDelegate.m */; };
+		AAC9292B1AA73A6B009034F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC929291AA73A6B009034F5 /* Main.storyboard */; };
+		AAC9292D1AA73A6B009034F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC9292C1AA73A6B009034F5 /* Images.xcassets */; };
+		AAC929301AA73A6B009034F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC9292E1AA73A6B009034F5 /* LaunchScreen.xib */; };
+		AAC9293C1AA73A6B009034F5 /* AACollageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC9293B1AA73A6B009034F5 /* AACollageViewTests.m */; };
+		AAC9294A1AA73BA0009034F5 /* AACollageMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC929471AA73BA0009034F5 /* AACollageMaker.m */; };
+		AAC9294B1AA73BA0009034F5 /* AACollageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC929491AA73BA0009034F5 /* AACollageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAC929361AA73A6B009034F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC929141AA73A6B009034F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC9291B1AA73A6B009034F5;
+			remoteInfo = AACollageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ED355319B9F95388FA685B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9981D3E4B643033CB58226B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC6723D1AA73CED006F40E9 /* StoryboardCollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardCollageViewController.h; sourceTree = "<group>"; };
+		AAC6723E1AA73CED006F40E9 /* StoryboardCollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardCollageViewController.m; sourceTree = "<group>"; };
+		AAC672411AA74048006F40E9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		AAC672421AA74048006F40E9 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		AAC672431AA74048006F40E9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AAC672441AA74048006F40E9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		AAC672451AA74048006F40E9 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		AAC672461AA74048006F40E9 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AAC672471AA74048006F40E9 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		AAC672481AA74048006F40E9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		AAC672491AA74048006F40E9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AAC672561AA744BC006F40E9 /* CodeCollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeCollageViewController.h; sourceTree = "<group>"; };
+		AAC672571AA744BC006F40E9 /* CodeCollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeCollageViewController.m; sourceTree = "<group>"; };
+		AAC672591AA7460F006F40E9 /* DelegateCollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateCollageViewController.h; sourceTree = "<group>"; };
+		AAC6725A1AA7460F006F40E9 /* DelegateCollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateCollageViewController.m; sourceTree = "<group>"; };
+		AAC6725C1AA74C70006F40E9 /* ImageShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShowViewController.h; sourceTree = "<group>"; };
+		AAC6725D1AA74C70006F40E9 /* ImageShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShowViewController.m; sourceTree = "<group>"; };
+		AAC9291C1AA73A6B009034F5 /* AACollageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACollageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC929201AA73A6B009034F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC929211AA73A6B009034F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAC929231AA73A6B009034F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAC929241AA73A6B009034F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAC9292A1AA73A6B009034F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC9292C1AA73A6B009034F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAC9292F1AA73A6B009034F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAC929351AA73A6B009034F5 /* AACollageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACollageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC9293A1AA73A6B009034F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC9293B1AA73A6B009034F5 /* AACollageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACollageViewTests.m; sourceTree = "<group>"; };
+		AAC929461AA73BA0009034F5 /* AACollageMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACollageMaker.h; sourceTree = "<group>"; };
+		AAC929471AA73BA0009034F5 /* AACollageMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACollageMaker.m; sourceTree = "<group>"; };
+		AAC929481AA73BA0009034F5 /* AACollageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACollageView.h; sourceTree = "<group>"; };
+		AAC929491AA73BA0009034F5 /* AACollageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACollageView.m; sourceTree = "<group>"; };
+		CD695BEF96AC54318675228E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC929191AA73A6B009034F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575FA131A4C21FF2ED9BDE7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC929321AA73A6B009034F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BF23008F753DB61AFDE28F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED355319B9F95388FA685B4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54D1B2B13A318AD54C72AC6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9981D3E4B643033CB58226B5 /* Pods.debug.xcconfig */,
+				CD695BEF96AC54318675228E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAC6723A1AA73CC5006F40E9 /* From storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6723D1AA73CED006F40E9 /* StoryboardCollageViewController.h */,
+				AAC6723E1AA73CED006F40E9 /* StoryboardCollageViewController.m */,
+			);
+			name = "From storyboard";
+			sourceTree = "<group>";
+		};
+		AAC6723B1AA73CCF006F40E9 /* From code */ = {
+			isa = PBXGroup;
+			children = (
+				AAC672561AA744BC006F40E9 /* CodeCollageViewController.h */,
+				AAC672571AA744BC006F40E9 /* CodeCollageViewController.m */,
+			);
+			name = "From code";
+			sourceTree = "<group>";
+		};
+		AAC6723C1AA73CD6006F40E9 /* With delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AAC672591AA7460F006F40E9 /* DelegateCollageViewController.h */,
+				AAC6725A1AA7460F006F40E9 /* DelegateCollageViewController.m */,
+				AAC6725C1AA74C70006F40E9 /* ImageShowViewController.h */,
+				AAC6725D1AA74C70006F40E9 /* ImageShowViewController.m */,
+			);
+			name = "With delegate";
+			sourceTree = "<group>";
+		};
+		AAC672401AA74033006F40E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9292C1AA73A6B009034F5 /* Images.xcassets */,
+				AAC9292E1AA73A6B009034F5 /* LaunchScreen.xib */,
+				AAC672491AA74048006F40E9 /* 1.jpg */,
+				AAC672431AA74048006F40E9 /* 2.jpg */,
+				AAC672411AA74048006F40E9 /* 3.jpg */,
+				AAC672461AA74048006F40E9 /* 4.png */,
+				AAC672481AA74048006F40E9 /* 5.jpg */,
+				AAC672451AA74048006F40E9 /* 6.png */,
+				AAC672441AA74048006F40E9 /* 7.jpg */,
+				AAC672421AA74048006F40E9 /* 9.png */,
+				AAC672471AA74048006F40E9 /* 8.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAC6725F1AA74DBF006F40E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6723C1AA73CD6006F40E9 /* With delegate */,
+				AAC6723B1AA73CCF006F40E9 /* From code */,
+				AAC6723A1AA73CC5006F40E9 /* From storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AAC929131AA73A6B009034F5 = {
+			isa = PBXGroup;
+			children = (
+				AAC929451AA73BA0009034F5 /* Classes */,
+				AAC9291E1AA73A6B009034F5 /* AACollageView */,
+				AAC929381AA73A6B009034F5 /* AACollageViewTests */,
+				AAC9291D1AA73A6B009034F5 /* Products */,
+				54D1B2B13A318AD54C72AC6A /* Pods */,
+				08BF23008F753DB61AFDE28F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC9291D1AA73A6B009034F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9291C1AA73A6B009034F5 /* AACollageView.app */,
+				AAC929351AA73A6B009034F5 /* AACollageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC9291E1AA73A6B009034F5 /* AACollageView */ = {
+			isa = PBXGroup;
+			children = (
+				AAC929291AA73A6B009034F5 /* Main.storyboard */,
+				AAC672401AA74033006F40E9 /* Resources */,
+				AAC6725F1AA74DBF006F40E9 /* Controllers */,
+				AAC9291F1AA73A6B009034F5 /* Supporting Files */,
+			);
+			path = AACollageView;
+			sourceTree = "<group>";
+		};
+		AAC9291F1AA73A6B009034F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC929231AA73A6B009034F5 /* AppDelegate.h */,
+				AAC929241AA73A6B009034F5 /* AppDelegate.m */,
+				AAC929201AA73A6B009034F5 /* Info.plist */,
+				AAC929211AA73A6B009034F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC929381AA73A6B009034F5 /* AACollageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9293B1AA73A6B009034F5 /* AACollageViewTests.m */,
+				AAC929391AA73A6B009034F5 /* Supporting Files */,
+			);
+			path = AACollageViewTests;
+			sourceTree = "<group>";
+		};
+		AAC929391AA73A6B009034F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9293A1AA73A6B009034F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC929451AA73BA0009034F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAC929461AA73BA0009034F5 /* AACollageMaker.h */,
+				AAC929471AA73BA0009034F5 /* AACollageMaker.m */,
+				AAC929481AA73BA0009034F5 /* AACollageView.h */,
+				AAC929491AA73BA0009034F5 /* AACollageView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC9291B1AA73A6B009034F5 /* AACollageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9293F1AA73A6B009034F5 /* Build configuration list for PBXNativeTarget "AACollageView" */;
+			buildPhases = (
+				2C298020DC98D0BD26553594 /* Check Pods Manifest.lock */,
+				AAC929181AA73A6B009034F5 /* Sources */,
+				AAC929191AA73A6B009034F5 /* Frameworks */,
+				AAC9291A1AA73A6B009034F5 /* Resources */,
+				F88DA487685CDF28C8DF44D1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AACollageView;
+			productName = AACollageView;
+			productReference = AAC9291C1AA73A6B009034F5 /* AACollageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC929341AA73A6B009034F5 /* AACollageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC929421AA73A6B009034F5 /* Build configuration list for PBXNativeTarget "AACollageViewTests" */;
+			buildPhases = (
+				AAC929311AA73A6B009034F5 /* Sources */,
+				AAC929321AA73A6B009034F5 /* Frameworks */,
+				AAC929331AA73A6B009034F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC929371AA73A6B009034F5 /* PBXTargetDependency */,
+			);
+			name = AACollageViewTests;
+			productName = AACollageViewTests;
+			productReference = AAC929351AA73A6B009034F5 /* AACollageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC929141AA73A6B009034F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Azat Almeev";
+				TargetAttributes = {
+					AAC9291B1AA73A6B009034F5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AAC929341AA73A6B009034F5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AAC9291B1AA73A6B009034F5;
+					};
+				};
+			};
+			buildConfigurationList = AAC929171AA73A6B009034F5 /* Build configuration list for PBXProject "AACollageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC929131AA73A6B009034F5;
+			productRefGroup = AAC9291D1AA73A6B009034F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC9291B1AA73A6B009034F5 /* AACollageView */,
+				AAC929341AA73A6B009034F5 /* AACollageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC9291A1AA73A6B009034F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC672511AA74048006F40E9 /* 5.jpg in Resources */,
+				AAC672501AA74048006F40E9 /* 8.jpg in Resources */,
+				AAC6724F1AA74048006F40E9 /* 4.png in Resources */,
+				AAC6724C1AA74048006F40E9 /* 2.jpg in Resources */,
+				AAC9292B1AA73A6B009034F5 /* Main.storyboard in Resources */,
+				AAC929301AA73A6B009034F5 /* LaunchScreen.xib in Resources */,
+				AAC6724D1AA74048006F40E9 /* 7.jpg in Resources */,
+				AAC9292D1AA73A6B009034F5 /* Images.xcassets in Resources */,
+				AAC6724B1AA74048006F40E9 /* 9.png in Resources */,
+				AAC672521AA74048006F40E9 /* 1.jpg in Resources */,
+				AAC6724E1AA74048006F40E9 /* 6.png in Resources */,
+				AAC6724A1AA74048006F40E9 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC929331AA73A6B009034F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C298020DC98D0BD26553594 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F88DA487685CDF28C8DF44D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC929181AA73A6B009034F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC9294A1AA73BA0009034F5 /* AACollageMaker.m in Sources */,
+				AAC929251AA73A6B009034F5 /* AppDelegate.m in Sources */,
+				AAC6725E1AA74C70006F40E9 /* ImageShowViewController.m in Sources */,
+				AAC6725B1AA7460F006F40E9 /* DelegateCollageViewController.m in Sources */,
+				AAC6723F1AA73CED006F40E9 /* StoryboardCollageViewController.m in Sources */,
+				AAC9294B1AA73BA0009034F5 /* AACollageView.m in Sources */,
+				AAC672581AA744BC006F40E9 /* CodeCollageViewController.m in Sources */,
+				AAC929221AA73A6B009034F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC929311AA73A6B009034F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC9293C1AA73A6B009034F5 /* AACollageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC929371AA73A6B009034F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC9291B1AA73A6B009034F5 /* AACollageView */;
+			targetProxy = AAC929361AA73A6B009034F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAC929291AA73A6B009034F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC9292A1AA73A6B009034F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC9292E1AA73A6B009034F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC9292F1AA73A6B009034F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC9293D1AA73A6B009034F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC9293E1AA73A6B009034F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC929401AA73A6B009034F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9981D3E4B643033CB58226B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AACollageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAC929411AA73A6B009034F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD695BEF96AC54318675228E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AACollageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAC929431AA73A6B009034F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AACollageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AACollageView.app/AACollageView";
+			};
+			name = Debug;
+		};
+		AAC929441AA73A6B009034F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AACollageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AACollageView.app/AACollageView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC929171AA73A6B009034F5 /* Build configuration list for PBXProject "AACollageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9293D1AA73A6B009034F5 /* Debug */,
+				AAC9293E1AA73A6B009034F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC9293F1AA73A6B009034F5 /* Build configuration list for PBXNativeTarget "AACollageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC929401AA73A6B009034F5 /* Debug */,
+				AAC929411AA73A6B009034F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC929421AA73A6B009034F5 /* Build configuration list for PBXNativeTarget "AACollageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC929431AA73A6B009034F5 /* Debug */,
+				AAC929441AA73A6B009034F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC929141AA73A6B009034F5 /* Project object */;
+}

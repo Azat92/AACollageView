@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EBC73FAB-470A-42AC-974F-8A7E7C0FC60D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AACollageView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>979F405F979459A1EFF03C2E47BC8CA70CB573E8</key>
+		<string>https://github.com/Azat92/AACollageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AACollageView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>979F405F979459A1EFF03C2E47BC8CA70CB573E8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Azat92/AACollageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>979F405F979459A1EFF03C2E47BC8CA70CB573E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>979F405F979459A1EFF03C2E47BC8CA70CB573E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AACollageView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

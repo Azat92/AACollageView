@@ -49,13 +49,22 @@
         return [AACollageMaker resultSizeForViewsWithSizes:self.imagesSizesArray widthConstraint:_widthConstraint heightConstraint:_heightConstraint];
 }
 
-- (void)setFrame:(CGRect)frame {
-    [super setFrame:frame];
+- (void)updateCollageVithFrame:(CGRect)frame {
     if (isnan(_heightConstraint))
         _widthConstraint = frame.size.width;
     else if (isnan(_widthConstraint))
         _heightConstraint = frame.size.height;
     [self refreshCollage];
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self updateCollageVithFrame:self.frame];
+}
+
+- (void)setFrame:(CGRect)frame {
+    [super setFrame:frame];
+    [self updateCollageVithFrame:frame];
 }
 
 - (void)setupCollageConstraintsWithMargin:(CGFloat)imagesMargin
@@ -78,9 +87,11 @@
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     NSArray *frames = [AACollageMaker rectsForViewsWithSizes:self.imagesSizesArray widthConstraint:_widthConstraint heightConstraint:_heightConstraint];
     [frames enumerateObjectsUsingBlock:^(NSValue *value, NSUInteger idx, BOOL *stop) {
-        UIImageView *imgView = [[UIImageView alloc] initWithImage:self.imagesArray[idx]];
+        UIImageView *imgView = [[UIImageView alloc] init];
         if (self.imagesArray)
             imgView.image = self.imagesArray[idx];
+        else if ([_delegate respondsToSelector:@selector(collageView:imageForIndex:)])
+            imgView.image = [_delegate collageView:self imageForIndex:idx];
         else
             [imgView sd_setImageWithURL:[_delegate collageView:self URLForImageAtIndex:idx]];
         imgView.frame = CGRectInset(value.CGRectValue, _imagesMargin / 2, _imagesMargin / 2);
@@ -100,10 +111,18 @@
             return [NSValue valueWithCGSize:img.size];
         }];
     else {
-        NSMutableArray *sizes = [NSMutableArray new];
-        for (NSUInteger index = 0; index < [_delegate imagesCountInCollageView:self]; index++)
-            [sizes addObject:[NSValue valueWithCGSize:[_delegate collageView:self sizeForImageAtIndex:index]]];
-        return sizes;
+        if ([_delegate respondsToSelector:@selector(collageView:imageForIndex:)]) {
+            NSMutableArray *sizes = [NSMutableArray new];
+            for (NSUInteger index = 0; index < [_delegate imagesCountInCollageView:self]; index++)
+                [sizes addObject:[NSValue valueWithCGSize:[_delegate collageView:self imageForIndex:index].size]];
+            return sizes;
+        }
+        else {
+            NSMutableArray *sizes = [NSMutableArray new];
+            for (NSUInteger index = 0; index < [_delegate imagesCountInCollageView:self]; index++)
+                [sizes addObject:[NSValue valueWithCGSize:[_delegate collageView:self sizeForImageAtIndex:index]]];
+            return sizes;
+        }
     }
 }
 

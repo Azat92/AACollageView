@@ -11,6 +11,8 @@
 @class AACollageView;
 
 @protocol AACollageViewDelegate <NSObject>
+
+@optional
 /**
  * @brief Obligatory method if working with delegate. Tells the number of images
  * @param collageView collage view to populate
@@ -36,8 +38,6 @@
  * @param index index of image in collage view
  */
 - (CGSize)collageView:(AACollageView *)collageView sizeForImageAtIndex:(NSUInteger)index;
-
-@optional
 /**
  * @brief Tells the delegate that user tapped some particular image
  * @param collageView sender collage view
