@@ -11,7 +11,7 @@ You can pass a varied number of images with different sizes and it is ok. There 
 Edit your PodFile to include the following line:
 
 ```
-pod 'AACollageView', :podspec => 'https://raw.githubusercontent.com/Azat92/AACollageView/master/AACollageView.podspec'
+pod 'AACollageView'
 ```
 
 Then import the main header.
